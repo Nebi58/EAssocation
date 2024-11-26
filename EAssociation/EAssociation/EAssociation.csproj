@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{029AA05D-8F37-4BB7-99B0-375A345BB244}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EAssociation</RootNamespace>
+    <AssemblyName>EAssociation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>EAssociationIco.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.1.5.24775, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZedGraphlibrary.5.1.5.24776\lib\ZedGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph.Web, Version=5.1.5.24782, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZedGraphlibrary.5.1.5.24776\lib\ZedGraph.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BloodGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BloodGraph.Designer.cs">
+      <DependentUpon>BloodGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Due_Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Due_Payment.Designer.cs">
+      <DependentUpon>Due_Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IBUN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IBUN.Designer.cs">
+      <DependentUpon>IBUN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List_BloodType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List_BloodType.Designer.cs">
+      <DependentUpon>List_BloodType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List_City.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List_City.Designer.cs">
+      <DependentUpon>List_City.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List_Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List_Status.Designer.cs">
+      <DependentUpon>List_Status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member_Login.Designer.cs">
+      <DependentUpon>Member_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member_MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member_MainPage.Designer.cs">
+      <DependentUpon>Member_MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member_SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member_SignUp.Designer.cs">
+      <DependentUpon>Member_SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secreter_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secreter_Login.Designer.cs">
+      <DependentUpon>Secreter_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secreter_MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secreter_MainPage.Designer.cs">
+      <DependentUpon>Secreter_MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting_Dues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting_Dues.Designer.cs">
+      <DependentUpon>Setting_Dues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting_Member_Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting_Member_Status.Designer.cs">
+      <DependentUpon>Setting_Member_Status.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BloodGraph.resx">
+      <DependentUpon>BloodGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Due_Payment.resx">
+      <DependentUpon>Due_Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IBUN.resx">
+      <DependentUpon>IBUN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List_BloodType.resx">
+      <DependentUpon>List_BloodType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List_City.resx">
+      <DependentUpon>List_City.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List_Status.resx">
+      <DependentUpon>List_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member_Login.resx">
+      <DependentUpon>Member_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member_MainPage.resx">
+      <DependentUpon>Member_MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member_SignUp.resx">
+      <DependentUpon>Member_SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Secreter_Login.resx">
+      <DependentUpon>Secreter_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secreter_MainPage.resx">
+      <DependentUpon>Secreter_MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting_Dues.resx">
+      <DependentUpon>Setting_Dues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting_Member_Status.resx">
+      <DependentUpon>Setting_Member_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EAssociation.Business\EAssociation.Business.csproj">
+      <Project>{71b5fbb3-a9c6-4662-a180-d5ae60eb8248}</Project>
+      <Name>EAssociation.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EAssociation.DataAccess\EAssociation.DataAccess.csproj">
+      <Project>{bc87bd34-6358-48e0-99b2-2fb67121151d}</Project>
+      <Name>EAssociation.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EAssociationIco.ico" />
+    <Content Include="License-LGPL.txt" />
+    <None Include="Resources\signupHover.png" />
+    <None Include="Resources\signup.png" />
+    <None Include="Resources\loginHover.png" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\graphHover.png" />
+    <None Include="Resources\databasesaveHover.png" />
+    <None Include="Resources\PdfIconHover.png" />
+    <None Include="Resources\refreshHover.png" />
+    <None Include="Resources\logoutHover.png" />
+    <None Include="Resources\logout.png" />
+    <None Include="Resources\secreter.png" />
+    <None Include="Resources\member.png" />
+    <None Include="Resources\databasesave1.png" />
+    <None Include="Resources\databasesave.png" />
+    <None Include="Resources\graph.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\PdfIcon1.png" />
+    <None Include="Resources\PdfIcon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

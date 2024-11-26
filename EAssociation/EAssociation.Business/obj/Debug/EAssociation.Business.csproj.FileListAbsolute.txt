@@ -1,0 +1,15 @@
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\bin\Debug\EAssociation.Business.dll
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\bin\Debug\EAssociation.Business.pdb
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\bin\Debug\EAssociation.DataAccess.dll
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\bin\Debug\EAssociation.DataAccess.pdb
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\obj\Debug\EAssociation.Business.csproj.AssemblyReference.cache
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\obj\Debug\EAssociation.Business.csproj.CoreCompileInputs.cache
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\obj\Debug\EAssociation.Business.csproj.CopyComplete
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\obj\Debug\EAssociation.Business.dll
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\obj\Debug\EAssociation.Business.pdb
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\bin\Debug\ZedGraph.dll
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\bin\Debug\ZedGraph.Web.dll
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\bin\Debug\Guna.UI2.dll
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\bin\Debug\itextsharp.dll
+C:\Users\ucarn\source\repos\EAssociation\EAssociation.Business\bin\Debug\itextsharp.xml
