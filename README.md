@@ -90,6 +90,20 @@ Geri bildirim, öneri ve katkılarınızı memnuniyetle bekliyorum!
 <img width="758" alt="resim1" src="https://github.com/user-attachments/assets/fbc4c437-f080-45ac-bde0-97b752b65172" />
 
 
+<img width="376" alt="resim2" src="https://github.com/user-attachments/assets/477d3f8d-942f-4243-a93b-c36b736cc66c" />
+
+
+
+<img width="1145" alt="resim5" src="https://github.com/user-attachments/assets/0dc06648-52e0-4b97-aab7-63da398b95ac" />
+
+
+
+<img width="745" alt="resim6" src="https://github.com/user-attachments/assets/266c1814-3ee5-44d9-8036-2b35a7c06179" />
+
+
+
+<img width="488" alt="resim7" src="https://github.com/user-attachments/assets/eb3429cf-10f0-4f63-a06f-55d3b1b9c811" />
+
 
 ---
 
