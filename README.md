@@ -63,11 +63,6 @@ Proje, **katmanlı mimari** ile geliştirilmiştir:
 
 ---
 
-## 📸 Arayüz Görselleri
-
-
----
-
 ## 📁 Kurulum
 
 1. Visual Studio ile projeyi açın.
@@ -87,6 +82,14 @@ Geri bildirim, öneri ve katkılarınızı memnuniyetle bekliyorum!
 
 📧 **ucarnebi3@gmail.com**  
 🔗 [nebiucar58](https://www.linkedin.com/in/nebiucar58)
+
+---
+
+## 📸 Arayüz Görselleri
+
+<img width="758" alt="resim1" src="https://github.com/user-attachments/assets/fbc4c437-f080-45ac-bde0-97b752b65172" />
+
+
 
 ---
 
